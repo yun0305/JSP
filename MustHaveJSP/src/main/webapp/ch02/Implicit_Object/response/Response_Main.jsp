@@ -35,7 +35,7 @@
 	
 	%>
 	
-	<form action = "./LoginTest.jsp" method = "post"> <!--(3)-->
+	<form action = "./ResponseLogin.jsp" method = "post"> <!--(3)-->
 	<!--  
 		./ResponseLogin.jsp 현재 디랙토리 안에 있는 ResponseLogin.jsp 페이지에 
 		아이디 값과 패스워드 값을 보냄

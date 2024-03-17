@@ -40,14 +40,14 @@
 	
 		영어 : <input type = "text" name = "eng" value = "Bye"><br/>
 		한글 : <input type = "text" name = "han" value = "잘 가"><br/>
-		<input type = "submit" value = "POST 방식 전송">
+			  <input type = "submit" value = "POST 방식 전송">
 	</form>
 	
 	<h2>2. 클라이언트의 요청 매개변수 읽기</h2>
 	<form action = "RequestParameter.jsp"><!--(3) 다양한 input 태그 사용 -->
 		아이디 : <input type = "text" name = "id" value=""><br>
 		성별:
-		<input type = "radio" name = "sex" value="man">남자
+		<input type = "radio" name = "sex" value="man" >남자
 		<input type = "radio" name = "sex" value = "woman" checked="checked">여자<br>
 		
 		관심사항 :
@@ -83,6 +83,7 @@
 	
 	따라서, GET은 주로 데이터가 노출되어도 되는 경우, POST는 데이터를 숨겨서 전송해야 하는 민감한 정보를 다룰 때 사용됩니다.
 	
+	절대/상대 경로 : https://velog.io/@bami/%ED%8C%8C%EC%9D%BC-%EA%B2%BD%EB%A1%9C-%EC%A0%88%EB%8C%80-%EA%B2%BD%EB%A1%9C%EC%99%80-%EC%83%81%EB%8C%80-%EA%B2%BD%EB%A1%9C	
  -->
 
 </body>
